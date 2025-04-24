@@ -1,0 +1,24 @@
+{
+  "name": "proteus",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "npx playwright install --force chrome",
+    "start": "cd src && node index.js",
+    "cleanup": "cd storage && rimraf --glob {browser,logs}/*"
+  },
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "ansicolor": "^2.0.3",
+    "moment": "^2.30.1",
+    "node-ray": "^2.1.2",
+    "playwright": "^1.46.0",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "rimraf": "^6.0.1"
+  }
+}

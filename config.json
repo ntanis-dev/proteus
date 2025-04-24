@@ -1,0 +1,16 @@
+{
+    "timings": {
+        "timeBetweenActionsMs": {
+            "min": 250,
+            "max": 500
+        },
+
+        "browserRestartDelayMs": 2500,
+        "loadTimeoutMs": 15000,
+        "afterNavigationDelayMs": 1500
+    },
+
+    "limits": {
+        "restartAttempts": 5
+    }
+}
