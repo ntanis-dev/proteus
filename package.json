@@ -1,16 +1,16 @@
 {
   "name": "proteus",
   "version": "1.0.0",
+  "description": "A Playwright implementation that assists in the analysis of web tracking, fingerprints and encryptions using Ray as a display.",
+  "author": "https://github.com/ntanis-dev",
+  "license": "ISC",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "postinstall": "npx playwright install --force chrome",
     "start": "cd src && node index.js",
     "cleanup": "cd storage && rimraf --glob {browser,logs}/*"
   },
-  "author": "",
-  "type": "module",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
     "ansicolor": "^2.0.3",
     "moment": "^2.30.1",
