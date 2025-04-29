@@ -60,3 +60,9 @@ npm run cleanmup
   - `regex`: The regex pattern of the request URL to match.
   - `enabled`: Whether the block is enabled (true/false).
 - `devtools`: Whether to enable devtools (true/false).
+
+## Disclaimer
+
+Modifying or hooking JavaScript at runtime will trip modern anti-tamper defenses.\
+This project was made purely for security research and analysis.\
+Use it responsibly and at your own risk.
